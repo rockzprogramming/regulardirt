@@ -1,0 +1,146 @@
+<html><head><base href="." />
+<title>regulardirt</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f7;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    position: relative;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    border: 4px solid #f5f5f7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: #1d1d1f;
+    letter-spacing: -0.5px;
+    animation: fadeIn 1s ease-out;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.motto {
+    font-size: 16px;
+    font-weight: 900;
+    background: linear-gradient(135deg, #8B4513, #5C3317);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+    margin-top: -5px;
+}
+
+.about-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.about-title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #8B4513, #5C3317);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-content {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover effects */
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.logo:hover .text-content {
+    background: linear-gradient(135deg, #8B4513, #5C3317);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo:hover + .motto {
+    margin-top: 20px;
+}
+</style>
+</head>
+<body>
+    <div class="banner">
+        <img src="https://yt3.googleusercontent.com/ZSoQcAZVWguvu35IzWlxjLsLJ3fsnS51TfXY4TGhveTHJPp8lJBxpS-w7u7qXmcPFSkaabQmcA=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" alt="Banner">
+    </div>
+    <div class="container">
+        <img src="https://yt3.googleusercontent.com/Db_claLIHOLJIOTgkyHqLQBbNMvvxX_uicuk0xF3RjBFvOJzwF-iqmUB7DXV250YKAdb8Izvtsc=s160-c-k-c0x00ffffff-no-rj" alt="Profile Picture" class="profile-picture">
+        <div class="logo">
+            <span class="text-content">regulardirt</span>
+        </div>
+        <div class="motto">i'm gonna put some dirt in your eye</div>
+    </div>
+    
+    <div class="about-section">
+        <div class="about-title">About Me</div>
+        <div class="about-content">
+            <p>Hey there! I'm regulardirt, a Minecraft content creator who specializes in bringing laughter and entertainment to the gaming community. My content revolves around creating engaging and humorous moments within the vast world of Minecraft, whether I'm participating in SMPs (Survival Multiplayer servers) or embarking on solo survival adventures. I pride myself on delivering content that not only showcases gameplay but also brings a unique comedic twist to every video.</p>
+            
+            <p>What sets my content apart is the perfect blend of survival gameplay mechanics and comedy. I'm particularly known for my involvement in various SMP series, where I collaborate with other content creators to create engaging storylines and memorable moments. When I'm not participating in server events or crafting elaborate pranks, you can find me exploring the endless possibilities of survival Minecraft, all while maintaining my signature comedic style that keeps my audience coming back for more.</p>
+        </div>
+    </div>
+</body>
+</html>
